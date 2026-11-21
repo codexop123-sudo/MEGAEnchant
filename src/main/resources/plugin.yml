@@ -1,0 +1,9 @@
+name: MegaEnchant
+version: '1.0'
+main: me.megaenchant.MegaEnchant
+api-version: '26.3'
+description: Overrides /enchant to allow enchantment levels up to 255.
+commands:
+  enchant:
+    description: Enchant the target's held item, with levels up to 255.
+    usage: /enchant <target|@s|@p|@a|@r> <enchantment> [level]
